@@ -1,0 +1,44 @@
+:root{
+/* Petrol — primary (60%) */
+--petrol-50:#EEF3F5;--petrol-200:#C9DAE0;--petrol-400:#5F8C9B;--petrol-600:#1D5A6D;--petrol-700:#0A4456;--petrol-900:#062C38;
+/* Desert gold — secondary (15%) */
+--gold-50:#FBF6EC;--gold-100:#F6F1E7;--gold-300:#EAD3A4;--gold-500:#CDAA6E;--gold-700:#A9854A;--gold-800:#8A6A33;--gold-900:#6B5226;
+/* Innovation orange — accent (10%) */
+--orange-50:#FEF0EB;--orange-200:#FBC9B8;--orange-400:#FF6A3D;--orange-500:#F04E23;--orange-600:#C93D15;--orange-800:#9A2E0F;
+/* Warm neutrals */
+--ink:#14262D;--ink-2:#4D5E65;--ink-3:#5B6B72;--ink-4:#7A8A90;--ink-disabled:#9AA6AA;
+--line:#DDE3E5;--line-warm:#E7E2D6;--line-soft:#EEF0EF;
+--paper:#FBFAF7;--white:#FFFFFF;--muted:#F4F6F7;
+/* Status */
+--success:#2E7D5B;--success-bg:#E6F2EC;
+--warning:#B7791F;--warning-ink:#8A5A12;--warning-bg:#FCF1DF;
+--danger:#B3261E;--danger-alt:#C23A22;--danger-bg:#FBE9E7;
+--info:#1D5A6D;--info-bg:#EEF3F5;
+
+/* Semantic aliases */
+--brand-primary:var(--petrol-700);
+--brand-secondary:var(--gold-500);
+--brand-accent:var(--orange-500);
+--text-heading:var(--petrol-900);
+--text-body:var(--ink);
+--text-muted:var(--ink-2);
+--text-subtle:var(--ink-3);
+--text-on-dark:var(--white);
+--text-on-dark-muted:var(--petrol-200);
+--text-link:var(--petrol-700);
+--text-link-hover:var(--orange-600);
+--surface-page:var(--paper);
+--surface-card:var(--white);
+--surface-sand:var(--gold-100);
+--surface-dark:var(--petrol-900);
+--surface-brand:var(--petrol-700);
+--border-card:var(--line-warm);
+--border-input:var(--line);
+--divider:var(--line-soft);
+--action-primary:var(--orange-600);
+--action-primary-hover:var(--orange-800);
+--action-secondary:var(--petrol-700);
+--action-secondary-hover:var(--petrol-900);
+--action-on-dark:var(--gold-500);
+--action-on-dark-hover:var(--gold-300);
+}

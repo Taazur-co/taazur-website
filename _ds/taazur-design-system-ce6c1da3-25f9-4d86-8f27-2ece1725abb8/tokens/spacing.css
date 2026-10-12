@@ -1,0 +1,14 @@
+:root{
+--space-1:4px;--space-2:8px;--space-3:12px;--space-4:16px;--space-5:20px;--space-6:24px;--space-7:28px;--space-8:32px;--space-10:40px;--space-12:48px;--space-18:72px;--space-24:96px;--space-28:112px;
+--container:1200px;--gutter:32px;
+
+--radius-xs:4px;--radius-sm:6px;--radius-tile:8px;--radius-md:10px;--radius-lg:12px;--radius-icon:14px;--radius-card:16px;--radius-panel:18px;--radius-slide-card:20px;--radius-pill:999px;
+
+--shadow-print:0 12px 40px rgba(6,44,56,.12);
+--shadow-thumb:0 6px 20px rgba(6,44,56,.12);
+
+--btn-height:48px;--btn-height-sm:44px;
+--border-strong:1.5px;
+--rule-gold:4px;
+--scrim-petrol:linear-gradient(to top,rgba(6,44,56,.92),rgba(6,44,56,0)); /* @kind other */
+}
